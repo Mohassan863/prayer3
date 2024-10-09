@@ -1,0 +1,91 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Tajawal', sans-serif;
+}
+html{
+direction: rtl;
+font-family: "Cairo", sans-serif;
+
+}
+section{
+  width: 100%;
+  min-height: 100vh;
+  background: url(assets/1.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section .countaner{
+  width: 85%;
+  background: #3332a224;
+  padding:  30px 25px;
+  backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  
+}
+
+section .countaner .top-sec{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #d7d7d74d;
+  margin-bottom: 40px;
+}
+
+section .countaner .top-sec select{
+  width: 250px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #fff;
+  background: transparent;
+  background: #a54f3a;  
+  color: #fff;
+  font-size: 22px;
+  margin-top: 10px;
+
+  
+}
+
+section .top-sec .date{
+  width: 250px;
+}
+
+section .top-sec  h3{
+  color: #fff;
+  font-size: 26px;
+}
+
+section .top-sec  h4{
+  color: #fff;
+  font-size: 20px;
+}
+
+.prayer{
+  color: #fff;
+  font-size: 20px;
+  margin-top: 20px;
+
+}
+
+section .prayer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 25px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  background: #c0583e75;
+  font-size: 24px;
+  color: #fff;
+  border: 1px solid #c0583e75;
+
+}
+
